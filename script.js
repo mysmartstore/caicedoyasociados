@@ -9,7 +9,7 @@
 
 /* ---------- EmailJS helpers (se mantienen fuera del DOMContentLoaded) ---------- */
 const EMAILJS_USER_ID = "ev7EfoljxruxIhOXp";
-const EMAILJS_SERVICE_ID = "service_a4z8nx9";
+const EMAILJS_SERVICE_ID = "service_j0xtsbm";
 const EMAILJS_TEMPLATE_ID = "template_k7m0jzr";
 
 function loadEmailJSScript() {
@@ -228,13 +228,13 @@ document.addEventListener("DOMContentLoaded", () => {
           "Mensaje:",
           message || "-",
         ];
-        const mailto = `mailto:gameplayscongiu@gmail.com?subject=${encodeURIComponent(
+        const mailto = `mailto:crconsultoresJF@hotmail.com?subject=${encodeURIComponent(
           subject
         )}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
 
         window.location.href = mailto;
         statusDiv.textContent =
-          "Si su cliente de correo no se abrió, por favor escriba a gameplayscongiu@gmail.com";
+          "Si su cliente de correo no se abrió, por favor escriba a crconsultoresJF@hotmail.com";
       } finally {
         submitBtn.disabled = false;
         submitBtn.textContent = previousText;
